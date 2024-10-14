@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.frisbeepic {
+    background: no-repeat bottom / cover url("images/ultimate.jpg");
+    height: 400px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.breadpudding {
+    background: no-repeat bottom / cover url("images/breadpudding.jpg");
+    height: 550px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.authorpic {
+    background: no-repeat bottom / cover url("images/author.jpg");
+    height: 500px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.moose {
+    background: no-repeat bottom / cover url("images/moose.PNG");
+    height: 500px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.sisters {
+    background: no-repeat bottom / cover url("images/twins.jpg");
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
