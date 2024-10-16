@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Contact Information</title>
         <link rel="stylesheet" href="screen.css">
     </head>
@@ -21,20 +20,19 @@
         </nav>
       </main>
       <section>
-        <p>Want to get in touch? Contact me here!</p>
+        <h2>Want to get in touch? Contact me here!</h2>
         <form>
-          <label for="firstname">First name:</label><br>
+          <label id="firstname">First name:</label><br>
           <input type="text"><br>
-          <label for="lastname">Last name:</label><br>
+          <label id="lastname">Last name:</label><br>
           <input type="text"><br>
-          <label for="reasoning">Reason for contact:</label><br>
-          <select name="reasoning" id="reasoning">
-            <option value="blank"></option>
+          <label id="reasoning">Reason for contact:</label><br>
+          <select id="menu">
             <option value="sayinghi">Saying Hi</option>
             <option value="opinion">Giving an opinion</option>
             <option value="interview">Looking to meet up</option>
           </select><br>
-          <label for="opencomment">Leave a comment:</label><br>
+          <label id="opencomment">Leave a comment:</label><br>
           <input type="text">
           <button>Submit</button>
         </form>
