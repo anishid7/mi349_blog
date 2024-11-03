@@ -7,35 +7,41 @@
         <link rel="stylesheet" href="screen.css">
     </head>
     <body>
-      <main>
-        <header>
-          <h1>Contact Information</h1>
-        </header>
-        <p>Contents:</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Anishi's Blog</a></li>
-                <li><a href="about.html">About the Author</a></li>
-            </ul>
-        </nav>
-      </main>
-      <section>
-        <h2>Want to get in touch? Contact me here!</h2>
-        <form>
-          <label id="firstname">First name:</label>
-          <input type="text">
-          <label id="lastname">Last name:</label>
-          <input type="text">
-          <label id="reasoning">Reason for contact:</label>
-          <select id="menu">
-            <option value="sayinghi">Saying Hi</option>
-            <option value="opinion">Giving an opinion</option>
-            <option value="interview">Looking to meet up</option>
-          </select>
-          <label id="opencomment">Leave a comment:</label>
-          <input type="text">
-          <button>Submit</button>
-        </form>
-      </section>
+      <div class="wrapper">
+        <div class="main">
+          <main>
+            <header>
+              <h1>Contact Information</h1>
+            </header>
+          </main>
+          <section>
+            <h2>Want to get in touch? Contact me here!</h2>
+            <form>
+              <label id="firstname">First name:</label>
+              <input type="text">
+              <label id="lastname">Last name:</label>
+              <input type="text">
+              <label id="reasoning">Reason for contact:</label>
+              <select id="menu">
+                <option value="sayinghi">Saying Hi</option>
+                <option value="opinion">Giving an opinion</option>
+                <option value="interview">Looking to meet up</option>
+              </select>
+              <label id="opencomment">Leave a comment:</label>
+              <input type="text">
+              <button>Submit</button>
+            </form>
+          </section>
+        </div>
+        <div class="sidebar">
+          <p>Contents:</p>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Anishi's Blog</a></li>
+                  <li><a href="about.html">About the Author</a></li>
+              </ul>
+          </nav>
+        </div>
+      </div>
     </body>
 </html>
