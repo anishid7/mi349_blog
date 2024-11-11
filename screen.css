@@ -1,15 +1,16 @@
 html {
     
-    background: #2a6f97;
+    background: #ccd5ae;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 30px;
     margin: 30px;
     color: #242424;
-    border-top: 10px solid #013a63;
-    background: #61a5c2;
+    border-top: 10px solid #606c38;
+    background: #e9edc9;
+    border-radius: 20px;
 }
 
 h1 {
@@ -20,18 +21,20 @@ h1 {
 }
 
 section {
-    background: #89c2d9;
+    background: #e9edc9;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+    border-radius: 20px;
 }
 
 article {
-    background: #a9d6e5;
+    background: #fefae0;
     padding: 20px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 p {
@@ -55,6 +58,7 @@ p {
     background-color: #fff;
     padding: 15px;
     margin-bottom: 15px;
+    border-radius: 20px;
 }
 
 .main {
@@ -83,7 +87,7 @@ p {
     height: 250px;
     width: 250px;
     margin: 0 0 10px 10px;
-    background-color: #cceaff;
+    background-color: #dde5b6;
     padding: 10px;
     border-top: 1px solid #999;
     border-right: 2px solid #555;
@@ -96,7 +100,7 @@ p {
     height: 250px;
     width: 250px;
     margin: 0 10px 0 0;
-    background-color: #cceaff;
+    background-color: #dde5b6;
     padding: 10px;
     border-top: 1px solid #999;
     border-right: 2px solid #555;
